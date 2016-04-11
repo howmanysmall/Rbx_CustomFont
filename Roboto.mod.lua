@@ -1,66 +1,66 @@
 --[[
 	@Font Roboto
 	@Sizes {96, 60, 48, 42, 36, 32, 28, 24, 18, 14, 12, 11, 10, 9, 8}
-	@Author Google, GSKW
-	@Link https://www.google.com/fonts/specimen/Roboto
+	@Author Christian Robertson
+	@Link https://www.fontsquirrel.com/fonts/list/foundry/christian-robertson
 --]]
 
 local module = {};
 
 module.atlases = {
-	[1]	= "rbxassetid://392953278";
-	[2]	= "rbxassetid://392953281";
-	[3]	= "rbxassetid://392953285";
-	[4]	= "rbxassetid://392953292";
-	[5]	= "rbxassetid://392953289";
-	[6]	= "rbxassetid://392953284";
-	[7]	= "rbxassetid://392953291";
-	[8]	= "rbxassetid://392953302";
-	[9]	= "rbxassetid://392953308";
-	[10]	= "rbxassetid://392953299";
-	[11]	= "rbxassetid://392953304";
-	[12]	= "rbxassetid://392953306";
-	[13]	= "rbxassetid://392953310";
-	[14]	= "rbxassetid://392953314";
-	[15]	= "rbxassetid://392953316";
-	[16]	= "rbxassetid://392953318";
-	[17]	= "rbxassetid://393140460";
-	[18]	= "rbxassetid://393140484";
-	[19]	= "rbxassetid://393140473";
-	[20]	= "rbxassetid://393140477";
-	[21]	= "rbxassetid://393140485";
-	[22]	= "rbxassetid://393140492";
-	[23]	= "rbxassetid://393140487";
-	[24]	= "rbxassetid://393140500";
-	[25]	= "rbxassetid://393140511";
-	[26]	= "rbxassetid://392953354";
-	[27]	= "rbxassetid://393140505";
-	[28]	= "rbxassetid://392953352";
-	[29]	= "rbxassetid://392953358";
-	[30]	= "rbxassetid://392953364";
-	[31]	= "rbxassetid://392953361";
-	[32]	= "rbxassetid://392953365";
-	[33]	= "rbxassetid://393055829";
-	[34]	= "rbxassetid://392953668";
-	[35]	= "rbxassetid://393055826";
-	[36]	= "rbxassetid://392953670";
-	[36]	= "rbxassetid://393055841";
-	[37]	= "rbxassetid://392953673";
-	[37]	= "rbxassetid://393055844";
-	[38]	= "rbxassetid://393055847";
-	[39]	= "rbxassetid://393055856";
-	[40]	= "rbxassetid://393055848";
-	[41]	= "rbxassetid://393055855";
-	[42]	= "rbxassetid://393055870";
-	[43]	= "rbxassetid://393055876";
-	[44]	= "rbxassetid://393055867";
-	[45]	= "rbxassetid://393055874";
-	[46]	= "rbxassetid://393055882";
-	[47]	= "rbxassetid://393055879";
-	[48]	= "rbxassetid://393140508";
-	[49]	= "rbxassetid://393140513";
-	[50]	= "rbxassetid://393140516";
-	[51]	= "rbxassetid://393055888";
+    [1]  = "rbxassetid://392953276";
+    [2]  = "rbxassetid://392953280";
+    [3]  = "rbxassetid://392953283";
+    [4]  = "rbxassetid://392953290";
+    [5]  = "rbxassetid://392953287";
+    [6]  = "rbxassetid://392953282";
+    [7]  = "rbxassetid://392953288";
+    [8]  = "rbxassetid://392953301";
+    [9]  = "rbxassetid://392953307";
+    [10] = "rbxassetid://392953298";
+    [11] = "rbxassetid://392953303";
+    [12] = "rbxassetid://392953305";
+    [13] = "rbxassetid://392953309";
+    [14] = "rbxassetid://392953313";
+    [15] = "rbxassetid://392953315";
+    [16] = "rbxassetid://392953317";
+    [17] = "rbxassetid://393140459";
+    [18] = "rbxassetid://393140480";
+    [19] = "rbxassetid://393140472";
+    [20] = "rbxassetid://393140476";
+    [21] = "rbxassetid://393140483";
+    [22] = "rbxassetid://393140490";
+    [23] = "rbxassetid://393140486";
+    [24] = "rbxassetid://393140499";
+    [25] = "rbxassetid://393140510";
+    [26] = "rbxassetid://392953353";
+    [27] = "rbxassetid://393140503";
+    [28] = "rbxassetid://392953351";
+    [29] = "rbxassetid://392953357";
+    [30] = "rbxassetid://392953363";
+    [31] = "rbxassetid://392953360";
+    [32] = "rbxassetid://392953362";
+    [33] = "rbxassetid://393055828";
+    [34] = "rbxassetid://392953667";
+    [35] = "rbxassetid://393055824";
+    [36] = "rbxassetid://392953669";
+    [36] = "rbxassetid://393055840";
+    [37] = "rbxassetid://392953672";
+    [37] = "rbxassetid://393055843";
+    [38] = "rbxassetid://393055845";
+    [39] = "rbxassetid://393055854";
+    [40] = "rbxassetid://393055846";
+    [41] = "rbxassetid://393055853";
+    [42] = "rbxassetid://393055869";
+    [43] = "rbxassetid://393055875";
+    [44] = "rbxassetid://393055866";
+    [45] = "rbxassetid://393055873";
+    [46] = "rbxassetid://393055880";
+    [47] = "rbxassetid://393055878";
+    [48] = "rbxassetid://393140507";
+    [49] = "rbxassetid://393140512";
+    [50] = "rbxassetid://393140514";
+    [51] = "rbxassetid://393055887";
 };
 
 module.font = {
@@ -18457,6 +18457,7 @@ module.font = {
 		};
 	};
 };
+
 
 
 return module;
