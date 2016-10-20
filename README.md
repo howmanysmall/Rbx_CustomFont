@@ -8,7 +8,7 @@ This allows you to greatly expand your UI design options.
 
 ![Example menu](http://i.imgur.com/qh6htfQ.png)
 
-The only thing that Rbx_CustomFont is currently missing is the ability to use the TextStroke property. Otherwise everything else is fairgame. If you are interested in using Rbx_CustomFont in you game(s) then please view the [API page.]()
+If you are interested in using Rbx_CustomFont in you game(s) then please view the [API page.](https://github.com/EgoMoose/Rbx_CustomFont/wiki/API)
 
 I have included a few fonts that come with the module, but if you would like to create your own font you are going to need the latest [.NET Framework](https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx) (sorry OSX users!). On that note if you have a mac and there is enough support (please send me a message if you are interested!), I may look into attempting to create a python version of the C# I have currently or I'll look into Mono. Otherwise, if you can run the .NET framework then you can read more about setting up your own font on the [setting up you own font wiki page.](https://github.com/EgoMoose/Rbx_CustomFont/wiki/Creating-your-own-font)
 
@@ -53,3 +53,5 @@ Finally, the project itself is licensed under the MIT license which can be read 
 ## Contributors
 
 Thanks to [Gskartwii](https://github.com/Gskartwii) for getting the font builder running on 64-bit processes!
+
+[AdarkTheCoder](https://github.com/AdarkTheCoder) made the GUI or whatever.
