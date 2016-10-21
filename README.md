@@ -2,6 +2,8 @@
 
 ## Custom font system for Roblox
 
+[Roblox build available here](https://www.roblox.com/library/526316798/Gskartwii-Rbx-CustomFont-master), bundled with the Roboto font with full ASCII charset excluding control characters.
+
 This is a module built for Roblox studio to allow the usage of any OpenType (.otf) or TrueType (.ttf) font in Roblox by converting them into spritesheets and then wrapping normal GUI text objects so they work with the spiresheets.
 
 This allows you to greatly expand your UI design options.
@@ -48,10 +50,10 @@ Portions of this software are copyright (c) 2016 The FreeType Project
 (www.freetype.org). All rights reserved.
 ```
 
-Finally, the project itself is licensed under the MIT license which can be read [here.](https://github.com/EgoMoose/Rbx_CustomFont/blob/master/LICENSE)
+Finally, the project itself is licensed under the MIT license which can be read [here.](https://github.com/Gskartwii/Rbx_CustomFont/blob/master/LICENSE)
 
 ## Contributors
 
-Thanks to [Gskartwii](https://github.com/Gskartwii) for getting the font builder running on 64-bit processes!
+Original project by [EgoMoose](https://github.com/EgoMoose). Now maintained by [Gskartwii](https://github.com/Gskartwii).
 
 [AdarkTheCoder](https://github.com/AdarkTheCoder) made the GUI or whatever.
